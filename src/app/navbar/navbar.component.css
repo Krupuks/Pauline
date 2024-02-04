@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  #navbar {
+    position: absolute;
+    height: 100vh;
+  }
+
+  .container-fluid {
+    height: 100%;
+  }
+
+  #navbarNav .navbar-nav .nav-link {
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  .nav-item {
+    padding-top: 5vh;
+  }
